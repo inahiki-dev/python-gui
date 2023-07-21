@@ -46,8 +46,8 @@ class MainWindow(QMainWindow):
         widget = QWidget()
         layout = QGridLayout()
 
-        plotwidget_xy = self.createPlot('x', 'y')
-        plotwidget_t = self.createPlot('x,y', 't')
+        plotwidget_xy = self.createPlot('y', 'x')
+        plotwidget_t = self.createPlot('x (red), y (blue)', 't')
 
         button = self.createButton()
 
